@@ -1,0 +1,29 @@
+{
+  "name": "gulp-image-set",
+  "description": "This is a Rework plugin to add future-proofed support for W3C-style image set notation. This provides a backround-image fallback for browsers that don't support image-set.",
+  "author": "John Otander",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnotander/gulp-image-set.git"
+  },
+  "keywords": [
+
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnotander/gulp-image-set/issues"
+  },
+  "homepage": "https://github.com/johnotander/gulp-image-set",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
