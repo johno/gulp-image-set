@@ -1,0 +1,10 @@
+.bg-img {
+  background-image: url('my-img.png');
+  background-image: image-set('my-img.png' 1x,
+                              'my-img-2x.png' 2x,
+                              'my-img-print.png' 600dpi);
+}
+
+.some-other-class {
+  color: #fafafa;
+}
