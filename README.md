@@ -14,7 +14,16 @@ npm install --save gulp-image-set
 ## Usage
 
 ```bash
-// ...
+var gulp     = require('gulp'),
+    imageSet = require('gulp-class-prefix');
+
+gulp.task('image-set', function() {
+  return gulp.src('my-file.css')
+    .pipe(imageSet())
+    .pipe(gulp.dest('dist'));
+});
+
+gulp.task('default', ['image-set']);
 ```
 
 ## License
