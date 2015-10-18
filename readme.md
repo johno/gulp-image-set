@@ -1,6 +1,4 @@
-# gulp-image-set
-
-[![Build Status](https://secure.travis-ci.org/johnotander/gulp-image-set.png?branch=master)](https://travis-ci.org/johnotander/gulp-image-set)
+# gulp-image-set [![Build Status](https://secure.travis-ci.org/johnotander/gulp-image-set.png?branch=master)](https://travis-ci.org/johnotander/gulp-image-set) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 Gulp plugin to add future-proofed support for W3C-style image set notation. This provides a backround-image fallback for browsers
 that don't support image-set.
@@ -14,16 +12,16 @@ npm install --save gulp-image-set
 ## Usage
 
 ```bash
-var gulp     = require('gulp'),
-    imageSet = require('gulp-class-prefix');
+var gulp = require('gulp')
+var imageSet = require('gulp-image-set')
 
-gulp.task('image-set', function() {
+gulp.task('image-set', function () {
   return gulp.src('my-file.css')
     .pipe(imageSet())
-    .pipe(gulp.dest('dist'));
-});
+    .pipe(gulp.dest('dist'))
+})
 
-gulp.task('default', ['image-set']);
+gulp.task('default', ['image-set'])
 ```
 
 ## License
@@ -40,4 +38,6 @@ MIT
 
 Crafted with <3 by John Otander ([@4lpine](https://twitter.com/4lpine)).
 
-This package was initially generated with [yeoman](http://yeoman.io) and the [p generator](https://github.com/johnotander/generator-p.git).
+***
+
+> This package was initially generated with [yeoman](http://yeoman.io) and the [p generator](https://github.com/johnotander/generator-p.git).

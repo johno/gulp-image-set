@@ -1,14 +1,21 @@
 {
   "name": "gulp-image-set",
-  "description": "Gulp plugin to add future-proofed support for W3C-style image set notation.",
-  "author": "John Otander",
   "version": "0.0.1",
+  "description": "Gulp plugin to add future-proofed support for W3C-style image set notation.",
+  "author": {
+    "name": "John Otander",
+    "email": "johnotander@gmail.com",
+    "url": "johnotander.com"
+  },
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -30,10 +37,10 @@
   "dependencies": {
     "gulp-util": "^3.0.2",
     "rework": "^1.0.1",
-    "rework-image-set": "0.0.1",
-    "through2": "^0.6.3"
+    "rework-image-set": "1.0.0",
+    "through2": "^2.0.0"
   },
   "devDependencies": {
-    "mocha": "*"
+    "ava": "*"
   }
 }
