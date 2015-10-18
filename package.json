@@ -1,6 +1,6 @@
 {
   "name": "gulp-image-set",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Gulp plugin to add future-proofed support for W3C-style image set notation.",
   "author": {
     "name": "John Otander",
