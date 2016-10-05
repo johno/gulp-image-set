@@ -1,6 +1,6 @@
 # gulp-image-set [![Build Status](https://secure.travis-ci.org/johnotander/gulp-image-set.png?branch=master)](https://travis-ci.org/johnotander/gulp-image-set) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-Gulp plugin to add future-proofed support for W3C-style image set notation. This provides a backround-image fallback for browsers
+Gulp plugin to add future-proofed support for W3C-style image set notation. This provides a background-image fallback for browsers
 that don't support image-set.
 
 ## Installation
